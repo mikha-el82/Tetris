@@ -1,6 +1,5 @@
 from turtle import Turtle
 
-
 MOVE_DISTANCE = 20
 DOWN = 270
 START_POS_LONGBRICK = [(0, 0), (20, 0), (40, 0), (60, 0)]

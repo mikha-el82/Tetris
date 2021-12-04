@@ -1,5 +1,6 @@
 from turtle import Turtle
 
+
 def set_board(SCREEN_WIDTH, SCREEN_HEIGHT):
     timmy = Turtle()
     timmy.hideturtle()

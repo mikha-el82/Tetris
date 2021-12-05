@@ -1,7 +1,8 @@
-from turtle import Screen, Turtle
+from turtle import Screen
 from shapes import Brick
 from board import set_board
 import time
+
 
 SCREEN_WIDTH = 220
 SCREEN_HEIGHT = 420

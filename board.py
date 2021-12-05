@@ -1,16 +1,17 @@
 from turtle import Turtle
 
-def set_board(SCREEN_WIDTH, SCREEN_HEIGHT):
+
+def set_board(screen_width, screen_height):
     timmy = Turtle()
     timmy.hideturtle()
     timmy.penup()
-    timmy.goto(SCREEN_WIDTH / 2, SCREEN_HEIGHT / 2)
+    timmy.goto(screen_width / 2, screen_height / 2)
     timmy.pendown()
     timmy.right(90)
-    timmy.forward(SCREEN_HEIGHT)
+    timmy.forward(screen_height)
     timmy.right(90)
-    timmy.forward(SCREEN_WIDTH)
+    timmy.forward(screen_width)
     timmy.right(90)
-    timmy.forward(SCREEN_HEIGHT)
+    timmy.forward(screen_height)
     timmy.right(90)
-    timmy.forward(SCREEN_WIDTH)
+    timmy.forward(screen_width)
